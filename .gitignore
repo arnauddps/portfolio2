@@ -1,0 +1,15 @@
+# Dépendances (TRÈS LOURD)
+node_modules/
+
+# Cache et dossiers de build
+.cache/
+dist/
+build/
+
+# Tes données volumineuses
+UNUSED_DATA/
+src/data/videos/asie.mp4
+
+# Fichiers système
+.DS_Store
+Thumbs.db

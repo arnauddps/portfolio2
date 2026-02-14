@@ -1,0 +1,162 @@
+.player-container {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 50px;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image_display_background {
+  top: 80px;
+  left: 0px;
+}
+
+.shot-container {
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+/*   
+  background-color: gold;
+  width: 80vw;
+  height: 56.25%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 100px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);  */
+  /* object-fit: contain; */
+}
+
+.video-player {
+  /* height: 10px; */
+}
+
+/* .shot-container > video {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  position: relative;
+  z-index: -1;
+} */
+
+.info-container {
+  /* width:auto; */
+  height: auto;
+
+  margin-top: 50px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 50px;
+  
+  /* background-color: red; */
+  display: inline-flex;
+  
+}
+
+.info-title {
+  width: 30vw;
+  height:auto;
+  font-size: 2rem;
+  /* background-color: green; */
+  text-align: start;
+}
+
+
+.info-text {
+  width: 50vw;
+  /* background-color: aqua; */
+  text-align: justify;
+  padding-left: 20px;
+}
+
+
+.gallerie {
+  margin-left: 6vw;
+  margin-right: 6vw;
+  
+}
+
+
+.button-container {
+  /* background-color: rgb(236, 106, 223); */
+  width: fill;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.shot-btns {
+  /* margin-top: 32px; */
+  /* background-color: aquamarine; */
+  justify-content: space-between;
+}
+
+.shot-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+.fa-angle-left {
+  margin-right: 10px;
+}
+
+.fa-angle-right {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  .shot-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+
+  .info-title {
+    width: 20vw;
+    font-size: 2rem;
+    /* background-color: green; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .shot-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .shot-container > p {
+    font-size: 30px;
+  }
+
+  .info-title {
+    font-size: 1.5rem;
+    /* background-color: green; */
+  }
+  
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+.pitch_title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1a1818;
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+.pitch_text {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1a1818;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.block_info > p {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1a1818;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.block_info > h {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1a1818;
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
